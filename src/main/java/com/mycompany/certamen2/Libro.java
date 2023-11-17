@@ -65,9 +65,9 @@ public class Libro {
     public void mostrarLibro(){
         
         System.out.println("El identificador es: " + this.id);
-        System.out.println("El Nombre es: " + this.titulo);
-        System.out.println("El Timepo de Carrera es: " + this.autor);
-        System.out.println("La Subida Promedio es: " + this.precio);
+        System.out.println("El Titulo es: " + this.titulo);
+        System.out.println("El Autor es: " + this.autor);
+        System.out.println("La Precio es: " + this.precio);
         System.out.println("");
         System.out.println("");
     }
@@ -75,20 +75,20 @@ public class Libro {
     public void mostrarLibro(String tipo){
         
         System.out.println("El identificador es: " + this.id);
-        System.out.println("El Nombre es: " + this.titulo);
-        System.out.println("El Timepo de Carrera es: " + this.autor);
-        System.out.println("La Subida Promedio es: " + this.precio);
-        System.out.println("La Subida Promedio es: " + tipo);
+        System.out.println("El Titulo es: " + this.titulo);
+        System.out.println("El Autor es: " + this.autor);
+        System.out.println("La Precio es: " + this.precio);
+        System.out.println("El Tipo es: " + tipo);
         System.out.println("");
         System.out.println("");
     }
     public void mostrarLibroPucv(String escuela){
         
         System.out.println("El identificador es: " + this.id);
-        System.out.println("El Nombre es: " + this.titulo);
-        System.out.println("El Timepo de Carrera es: " + this.autor);
-        System.out.println("La Subida Promedio es: " + this.precio);
-        System.out.println("La Subida Promedio es: " + escuela);
+        System.out.println("El Titulo es: " + this.titulo);
+        System.out.println("El Autor es: " + this.autor);
+        System.out.println("La Precio es: " + this.precio);
+        System.out.println("La Escuela es: " + escuela);
         System.out.println("");
         System.out.println("");
     }
